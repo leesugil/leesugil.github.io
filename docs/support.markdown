@@ -5,21 +5,10 @@ title: ☕️ Buy Me a Coffee
 permalink: /support/
 ---
 
-Thanks for visiting this page, hope it helped your day!
+Hey, thank you for considering supportign my work!
 
-[Let me know](https://github.com/leesugil/leesugil.github.io) if you have any suggestions ☕️
+I'm genuinely glad that I could help you with my passion just like how I got helped from my teachers, friends, and all the generous people on the Internet 🍄
 
-<!-- AdSense Script -->
-<div class="adsense">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6490785040644734" crossorigin="anonymous"></script>
-    <!-- AdSense ad slot here -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-6490785040644734"
-         data-ad-slot="your-ad-slot-id"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-</div>
+Here's my [Patreon page](https://patreon.com/MathandEngineeringNotebook?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink) for those who want to buy me a cup of coffee ☕️
+
+Hope you have a wonderful rest of the day (or night 🦉) 🪴
