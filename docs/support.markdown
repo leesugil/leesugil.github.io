@@ -4,7 +4,7 @@ title: ☕️ Buy Me a Coffee
 permalink: /support/
 ---
 
-Hey, thank you for considering supportign my work!
+Hey, thank you for considering supporting my work!
 
 I'm genuinely glad that I could help you with my passion just like how I got helped from my teachers, friends, and all the generous people on the Internet 🍄
 
