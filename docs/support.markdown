@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Support My Work
-permalink: /support_my_work/
+title: ☕️ Buy Me a Coffee
+permalink: /support/
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6490785040644734" crossorigin="anonymous"></script>
 
