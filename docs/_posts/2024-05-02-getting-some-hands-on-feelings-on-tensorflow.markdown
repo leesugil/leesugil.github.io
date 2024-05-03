@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting Some Hands On Feelings On TensorFlow"
-date:   2024-05-01 11:58:00 -0400
+date:   2024-05-02 11:58:00 -0400
 categories: [artificial intelligence]
 tags: [tech, tutorials, lecture, note, introduction, machine learning, deep learning, artificial intelligence, stem, math, recitation, tip, tensorflow, python, parameter, weight, activation function]
 mermaid: true
