@@ -46,7 +46,7 @@ Activation functions make the model non-linear.
 
 ![Perceptron]({{ '/assets/images/single-layer-nn.svg' | relative_url }})
 
-Let $$X = (x_i)_{i=1}^{d_1}$$ be the input vector, $$Z = (z_j)_{j=1}^{d_2}$$ the hidden layer variable vector, and $$Y = (\hat{y}_k)_{k=1}^{d_3}$$ the output vector.
+Let $$X = (x_i)_{i=1}^{d_1}$$ be the input vector, $$Z = (z_j)_{j=1}^{d_2}$$ and $$\hat{Z} = (\hat{z})_{j=1}^{d_2} = (g(z_j))_{j=1}^{d_2}$$ the hidden layer variable vectors, and $$Y = (\hat{y}_k)_{k=1}^{d_3}$$ the output vector.
 
 Let $$W^{(1)} = (w_{i, j}^{(1)})$$ be the weights from $$X$$ to $$Z$$, and $$W^{(2)} = (w_{j, k}^{(2)})$$ from $$Z$$ to $$Y$$.
 
@@ -55,8 +55,8 @@ Then
 $$
 \large{
 \begin{align*}
-z_j &= g(w_{0, j}^{(1)} + \sum_{i=1}^{d_1} x_i w_{i, j}^{(1)}) \\
-        &= g(w_{0, j}^{(1)} + X^T W_j^{(1)})
+z_j &= w_{0, j}^{(1)} + \sum_{i=1}^{d_1} x_i w_{i, j}^{(1)} \\
+        &= w_{0, j}^{(1)} + X^T W_j^{(1)}
 \end{align*}
 }
 $$
@@ -66,8 +66,8 @@ and
 $$
 \large{
 \begin{align*}
-\hat{y}_j &= g(w_{0, k}^{(2)} + \sum_{j=1}^{d_2} z_j w_{j, k}^{(2)}) \\
-        &= g(w_{0, k}^{(2)} + Z^T W_k^{(2)})
+\hat{y}_j &= g(w_{0, k}^{(2)} + \sum_{j=1}^{d_2} \hat{z_j} w_{j, k}^{(2)}) \\
+        &= g(w_{0, k}^{(2)} + {\hat{Z}}^T W_k^{(2)})
 \end{align*}
 }
 $$
