@@ -5,6 +5,8 @@ date:   2024-05-01 11:09:00 -0400
 categories: [artificial intelligence]
 tags: [tech, tutorials, lecture, note, introduction, machine learning, deep learning, artificial intelligence, stem, math]
 mermaid: true
+toc: true
+toc_icon: "cog"
 ---
 Here's a quick reminder of the simple and fundamental concepts in deep learning and neural network.
 
