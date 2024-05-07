@@ -1,10 +1,38 @@
-<script src="https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js" async></script>
 <script>
-  $(document).ready(function () {
-    mermaid.initialize({
-      startOnLoad:true,
-      theme: "default",
+  document.addEventListener("DOMContentLoaded", function() {
+    // Log when the document is fully loaded
+    console.log("Document loaded.");
+
+    // Select all code blocks with the class 'language-mermaid'
+    var mermaidBlocks = document.querySelectorAll('code.language-mermaid');
+    console.log("Found " + mermaidBlocks.length + " mermaid blocks");
+
+    // Process each Mermaid block found
+    mermaidBlocks.forEach(function(block) {
+      var pre = block.parentNode;  // The parent 'pre' element
+      var div = document.createElement('div');  // Create a new 'div' for the Mermaid diagram
+      div.className = 'mermaid';
+      div.textContent = block.textContent;  // Use textContent for better accuracy and security
+
+      // Replace the original 'pre' element with the new 'div'
+      pre.parentNode.replaceChild(div, pre);
+
+      // Optional: Add accessibility features
+      div.setAttribute('aria-label', "Mermaid diagram visualization");
     });
-    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+
+    // Initialize Mermaid
+    try {
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: 'default', // or any theme you prefer
+        logLevel: 'info', // set the log level for debugging
+      });
+      console.log("Mermaid has been initialized.");
+    } catch (error) {
+      console.error("Mermaid failed to initialize: ", error);
+    }
   });
 </script>
+
