@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+![My Desktop Plant]({{ '/assets/images/plant.jpg' | relative_url }}){:.center}
