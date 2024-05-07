@@ -81,6 +81,14 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/leesugil"
 timezone: America/New_York
+author:
+  name      : "Sugil Steve Lee"
+  bio       : "I love sharing my passion of learning."
+  location  : "Georgia, USA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/leesugil"
 
 defaults:
   # _posts
@@ -99,4 +107,4 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false

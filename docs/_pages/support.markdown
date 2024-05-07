@@ -2,13 +2,29 @@
 layout: single
 title: ☕️ Buy Me a Coffee
 permalink: /support/
+author_profile: true
 ---
 
-Hey, thank you for considering supporting my work!
+Hey, I'm genuinely glad if my work helped you learning math and technology just like how I got helped from many other great people that I've never met in person 🙏
 
-I'm genuinely glad that I could help you with my passion just like how I got helped from my teachers, friends, and all the generous people on the Internet 🍄
+Here are some of the ways if you want to help me keep watering my plants:
 
-Here's my <a href="https://patreon.com/MathandEngineeringNotebook?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" target="_blank" rel="noopener noreferrer">Patreon page</a> for those who want to buy me a cup of coffee ☕️
+<p>
+    <a href="https://buymeacoffee.com/leesugil">
+        <img src="{{ '/assets/images/buymeacoffee.png' | relative_url }}" alt="But Me A Coffee">
+    </a>
+</p>
 
+<p>
+    <a href="https://paypal.me/leesugil">
+        <img src="{{ '/assets/images/paypal.png' | relative_url }}" alt="PayPal Me">
+    </a>
+</p>
 
-Hope you have a wonderful rest of the day (or night 🦉) 🪴
+<p>
+    <a href="https://patreon.com/leesugil">
+        <img src="{{ '/assets/images/patreon.png' | relative_url }}" alt="Patreon">
+    </a>
+</p>
+
+Thank you so much for your support, hope you have a wonderful rest of the day!
