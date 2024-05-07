@@ -29,7 +29,7 @@ flowchart TD
     C --> F[found]
     C --> G[found]
     E --> H[found]
-    E --> I[found]
+    E --> I[not found]
 ```
 
 If an array has $$n$$ items, then there is a total of $$n+1$$ possible outcomes from the algorithm (a keyword matching to one of the $$n$$ items or "item not found"). They form at least $$n+1$$ leaves of the decision tree, therefor the tree length is capped at $$\mathcal{O}(\log n)$$ as long as a search algorithm follows a comparison model.
