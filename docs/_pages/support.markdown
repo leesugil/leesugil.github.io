@@ -5,7 +5,7 @@ permalink: /support/
 author_profile: true
 ---
 
-Hey, I'm genuinely glad if my work helped you learning math and technology just like how I got helped from many other great people that I've never met in person 🙏
+Hey, I'm genuinely glad if my work helped you learning math and technology just like how I got helped from many other great people that I've never met in person 🙏.
 
 Here are some of the ways if you want to support me watering my plants:
 

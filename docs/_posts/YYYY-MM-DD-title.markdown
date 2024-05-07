@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Title"
+permalink: /category/title/
 date:   2024-05-02 11:58:00 -0400
 categories: [subdirectory]
 tags: [tag]

@@ -1,9 +1,10 @@
 ---
 layout: single
 title:  "Searching and the Θ(log n) Cap"
+permalink: /computer-science/decision-tree/
 date:   2024-05-05 21:53:00 -0400
-categories: [software engineering]
-tags: [software engineering, data structure, algorithm, computer science, search, find, comparison model, decision tree]
+categories: [computer science]
+tags: [somputer science, software engineering, data structure, algorithm, computer science, search, find, comparison model, decision tree]
 mermaid: true
 ---
 *This is a short note on introductory data structures and algorithms. For more details, [see here](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/ce9e94705b914598ce78a00a70a1f734_MIT6_006S20_lec4.pdf).*

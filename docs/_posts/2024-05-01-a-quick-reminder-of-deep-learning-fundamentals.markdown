@@ -1,24 +1,14 @@
 ---
 layout: single
 title:  "A Quick Reminder of Deep Learning Fundamentals"
+permalink: /artificial-intelligence/fundamentals/
 date:   2024-05-01 11:09:00 -0400
 categories: [artificial intelligence]
 tags: [tech, tutorials, lecture, note, introduction, machine learning, deep learning, artificial intelligence, stem, math]
 mermaid: true
 toc: true
-toc_icon: "cog"
 ---
 Here's a quick reminder of the simple and fundamental concepts in deep learning and neural network.
-
-## Table of Contents
-
-1. [Perceptron](#perceptron)
-2. [Single Hidden-Layer Model](#singlehiddenlayermodel)
-3. [Loss and Objective Function](#lossandobjectivefunction)
-4. [Gradient Descent](#gradientdescent)
-5. [Back Propagation](#backpropagation)
-6. [Learning Rate](#learningrate)
-7. [Overfitting and Regularization](#overfittingandregularization)
 
 ## Perceptron {#perceptron}
 

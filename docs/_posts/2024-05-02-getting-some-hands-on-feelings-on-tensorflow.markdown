@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Getting Some Hands On Feelings On TensorFlow"
+permalink: /artificial-intelligence/tensorflow/
 date:   2024-05-02 11:58:00 -0400
 categories: [artificial intelligence]
 tags: [tech, tutorials, lecture, note, introduction, machine learning, deep learning, artificial intelligence, stem, math, recitation, tip, tensorflow, python, parameter, weight, activation function]
@@ -37,7 +38,7 @@ We first get $$Y$$ first, and then apply activation function $$g$$ to get $$\hat
 
 Here's how this can be implemented in TensorFlow in two ways.
 
-# Preparation
+## Preparation
 
 First, we import tensorflow and load some data to play with.
 
@@ -51,7 +52,7 @@ mnist = tf.keras.datasets.mnist
 x_train, x_test = x_train / 255.0, x_test / 255.0
 ```
 
-# Models
+## Models
 
 We'll define two essentially same models for the comparison.
 
@@ -103,7 +104,7 @@ And if that's the case, if we apply the softmax function to the outcome of the s
 
 Let's find it out!
 
-# The Comparison
+## The Comparison
 
 Here's what we'll compare. Since other conditions are the same but the application of the softmax activation function at the end, the outcome of the first model
 
