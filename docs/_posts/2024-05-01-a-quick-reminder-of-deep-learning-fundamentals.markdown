@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "A Quick Reminder of Deep Learning Fundamentals"
 date:   2024-05-01 11:09:00 -0400
 categories: [artificial intelligence]

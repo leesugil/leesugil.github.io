@@ -1,0 +1,6 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "☕️ Buy Me a Coffee"
+    url: /support/
+    target: _blank

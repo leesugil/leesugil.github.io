@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: ☕️ Buy Me a Coffee
 permalink: /support/
 ---

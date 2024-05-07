@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Searching and the Θ(log n) Cap"
 date:   2024-05-05 21:53:00 -0400
 categories: [software engineering]
