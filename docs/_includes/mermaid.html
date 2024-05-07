@@ -1,54 +1,37 @@
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js" async></script>
 <script>
-  // Wait for both the DOM to be fully loaded and Mermaid to be ready
   document.addEventListener("DOMContentLoaded", function() {
-    function initializeMermaid() {
-      if (typeof mermaid === 'undefined') {
-        console.error("Mermaid is not yet loaded.");
-        return; // Exit if Mermaid is not loaded
-      }
+    // Log when the document is fully loaded
+    console.log("Document loaded.");
 
-      // Log when the document is fully loaded
-      console.log("Document loaded.");
+    // Select all code blocks with the class 'language-mermaid'
+    var mermaidBlocks = document.querySelectorAll('code.language-mermaid');
+    console.log("Found " + mermaidBlocks.length + " mermaid blocks");
 
-      // Select all code blocks with the class 'language-mermaid'
-      var mermaidBlocks = document.querySelectorAll('code.language-mermaid');
-      console.log("Found " + mermaidBlocks.length + " mermaid blocks");
+    // Process each Mermaid block found
+    mermaidBlocks.forEach(function(block) {
+      var pre = block.parentNode;  // The parent 'pre' element
+      var div = document.createElement('div');  // Create a new 'div' for the Mermaid diagram
+      div.className = 'mermaid';
+      div.textContent = block.textContent;  // Use textContent for better accuracy and security
 
-      // Process each Mermaid block found
-      mermaidBlocks.forEach(function(block) {
-        var pre = block.parentNode;  // The parent 'pre' element
-        var div = document.createElement('div');  // Create a new 'div' for the Mermaid diagram
-        div.className = 'mermaid';
-        div.textContent = block.textContent;  // Use textContent for better accuracy and security
+      // Replace the original 'pre' element with the new 'div'
+      pre.parentNode.replaceChild(div, pre);
 
-        // Replace the original 'pre' element with the new 'div'
-        pre.parentNode.replaceChild(div, pre);
+      // Optional: Add accessibility features
+      div.setAttribute('aria-label', "Mermaid diagram visualization");
+    });
 
-        // Optional: Add accessibility features
-        div.setAttribute('aria-label', "Mermaid diagram visualization");
+    // Initialize Mermaid
+    try {
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: 'default', // or any theme you prefer
+        logLevel: 'info', // set the log level for debugging
       });
-
-      // Initialize Mermaid
-      try {
-        mermaid.initialize({
-          startOnLoad: true,
-          theme: 'default', // or any theme you prefer
-          logLevel: 'info', // set the log level for debugging
-        });
-        console.log("Mermaid has been initialized.");
-      } catch (error) {
-        console.error("Mermaid failed to initialize: ", error);
-      }
+      console.log("Mermaid has been initialized.");
+    } catch (error) {
+      console.error("Mermaid failed to initialize: ", error);
     }
-
-    // Check if Mermaid has loaded every 100 milliseconds
-    let checkMermaid = setInterval(function() {
-      if (typeof mermaid !== 'undefined') {
-        clearInterval(checkMermaid);  // Stop checking once Mermaid is loaded
-        initializeMermaid();  // Initialize Mermaid
-      }
-    }, 100);
   });
 </script>
-
