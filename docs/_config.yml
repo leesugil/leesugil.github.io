@@ -76,7 +76,7 @@ search: true
 lunr:
   search_within_pages: true
 footer:
-  linkes:
+  links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/leesugil"
