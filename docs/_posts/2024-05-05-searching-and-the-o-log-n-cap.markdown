@@ -36,4 +36,4 @@ If an array has $$n$$ items, then there is a total of $$n+1$$ possible outcomes 
 
 ## Can a search algorithm be faster than O(log n)?
 
-**Yes**, otherwise I wouldn't have used search engines as much as I actually do. In [next post](), we'll talk about a method using a direct access array (hash table) that enables searching in $$\mathcal{O}(1)$$.
+**Yes**, otherwise I wouldn't have used search engines as much as I actually do. In [the next post]({{ '/_post/' | relative_url }}), we'll talk about a method using a direct access array (hash table) that enables searching in $$\mathcal{O}(1)$$.
