@@ -4,3 +4,16 @@ main:
   - title: "☕️ Buy Me a Coffee"
     url: /support/
     target: _blank
+
+posts:
+  - title: Deep Learning
+    children:
+      - title: "Fundamentals"
+        url: /artificial%20intelligence/2024/05/01/a-quick-reminder-of-deep-learning-fundamentals.html
+
+  - title: Software Engineering
+    children:
+      - title: "Decision Tree"
+        url: /software%20engineering/2024/05/05/searching-and-the-o-log-n-cap.html
+
+  - title: Mathematics
