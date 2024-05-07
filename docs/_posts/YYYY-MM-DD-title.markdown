@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Title"
 date:   2024-05-02 11:58:00 -0400
 categories: [subdirectory]
