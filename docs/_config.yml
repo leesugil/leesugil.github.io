@@ -66,15 +66,12 @@ head_scripts:
   - https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
   - /assets/js/mermaid.js
   - /assets/js/mathjax.js
-  - /assets/js/facebook.js
 teaser: /assets/images/500x300.png
 logo: "/assets/images/88x88.png"
 comments:
-  provider: "facebook"
-  facebook:
-    appid: 419098400927384
-    num_posts: 5
-    colorscheme: light
+  provider: "disqus"
+  disqus:
+    shotname: "math-and-engineering-notebook"
 search: true
 lunr:
   search_within_pages: true
