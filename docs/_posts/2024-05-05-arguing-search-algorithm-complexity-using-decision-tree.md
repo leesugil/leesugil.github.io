@@ -1,13 +1,14 @@
 ---
 layout: single
-title:  "Searching and the Θ(log n) Cap"
+title:  "Arguing Search Algorithm Comlexity Using Decision Tree"
 permalink: /computer-science/decision-tree/
 date:   2024-05-05 21:53:00 -0400
 categories: [computer science]
 tags: [somputer science, software engineering, data structure, algorithm, computer science, search, find, comparison model, decision tree]
 mermaid: true
 ---
-*This is a short note on introductory data structures and algorithms. For more details, [see here](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/ce9e94705b914598ce78a00a70a1f734_MIT6_006S20_lec4.pdf).*
+
+## Searching and the Θ(log n) Cap
 
 Consider implementing a fast search algorithm of items in arrays. Say, given an array and a keyword $$k$$, we can compare $$k$$ with each element of the array until we have found the matching item. A brute-force comparison of each item in the array to $$k$$ will cost $$\mathcal{O}(n)$$.
 
@@ -37,4 +38,4 @@ If an array has $$n$$ items, then there is a total of $$n+1$$ possible outcomes 
 
 ## Can a search algorithm be faster than O(log n)?
 
-**Yes**, otherwise I wouldn't have used search engines as much as I actually do. In the [next post]({{ '/_posts/' | relative_url }}), we'll talk about a method using a direct access array (hash table) that enables searching in $$\mathcal{O}(1)$$.
+**Yes**, otherwise our experience with the search engines would've been whole a lot of different. In the next post, I'll talk about how using a direct access array (hash table) enables a search algorithm to beat the $$\mathcal{O}(\log n)$$ cap and actually achieve $$\mathcal{O}(1)$$ 😎.

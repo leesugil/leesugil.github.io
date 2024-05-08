@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "A Quick Reminder of Deep Learning Fundamentals"
+title:  "Deep Learning Fundamentals"
 permalink: /artificial-intelligence/fundamentals/
 date:   2024-05-01 11:09:00 -0400
 categories: [artificial intelligence]

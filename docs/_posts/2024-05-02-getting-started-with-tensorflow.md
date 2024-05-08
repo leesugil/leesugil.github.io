@@ -1,12 +1,15 @@
 ---
 layout: single
-title:  "Getting Some Hands On Feelings On TensorFlow"
+title:  "Getting Started with TensorFlow"
 permalink: /artificial-intelligence/tensorflow/
 date:   2024-05-02 11:58:00 -0400
 categories: [artificial intelligence]
 tags: [tech, tutorials, lecture, note, introduction, machine learning, deep learning, artificial intelligence, stem, math, recitation, tip, tensorflow, python, parameter, weight, activation function]
 mermaid: true
 ---
+
+## Getting Some Hands-On Experience
+
 Learning to use a new framework or a library can be overwhelming in the beginning even if you're equipped with theoretical knowledge. You have to learn the interface almost from the scratch each time, if not the language-specific taste of using them 😵 To me, this indeed has always been the case, like learning to use GSL (GNU Scientific Library), SciPy, R, SAS, you name any scientific library... (And sometimes I feel their API isn't exactly meeting my initial taste, have an urge to write my own wrappers or even dreaming of writing the functions that I need from the scratch, but the urge dies out of exhaustion 99.9% of the time 🫠 It's always better to avoid reinventing the wheel and give some trust to those packages that the community has already embraced long time ago.)
 
 Such is the case for machine learning frameworks (TensorFlow, PyTorch), here's a simple TensorFlow example that I derived [from the very first official TensorFlow tutorial](https://www.tensorflow.org/tutorials/quickstart/beginner) that gave me some sense of control over weight parameters.

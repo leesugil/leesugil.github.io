@@ -17,5 +17,10 @@ posts:
     children:
       - title: "Arguing Search Algorithm Complexity Using Decision Tree"
         url: /computer-science/decision-tree/
+      - title: "How Hashing Makes Search Algorithm Faster"
+        url: /computer-science/hashing/
 
   - title: Mathematics
+
+etc:
+  - title: etc.
