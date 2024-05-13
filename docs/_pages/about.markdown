@@ -5,10 +5,12 @@ permalink: /about/
 author_profile: false
 ---
 
-Hey, welcome to the About page.
+Hi, I'm Steve. I love DIY-ing things, and creating this blog page was part of it.
 
-Hope what I do here helps you as much as it does to me.
+Learning is a BIG part of joy of my life. One day, I missed my teaching days when I was a graduate TA, and I felt I should make something readible online that gives me the similar joy of learning as making study materials (if not making videos about them which is another level of dedication). I hope this becomes useful to you as much as how typing in my hand-written scribbles helps me keep refreshing my memory. 🙂
 
-The best way to contact me about this website is through <a href="https://github.com/leesugil/leesugil.github.io/tree/gh-pages" target="_blank" rel="noopener noreferrer">the GitHub repo</a>. Let me know if you have any suggestions on contents or issue with the page ☕️.
+I studied math at Michigan State University for a phd, specializing in algebraic geometry, arithmetic geometry and number theory. Before that, I had a mixed experience of working and studying as a stat and biz major. Data science and mathematics have been a big part of my professional career since then.
+
+The best way to contact me is through <a href="https://github.com/leesugil/leesugil.github.io/tree/gh-pages" target="_blank" rel="noopener noreferrer">the GitHub repo</a> of this page or sugilmath at gmail dot com. Feel free to contact me with anything, I'd love to hear your thoughts. ☕️
 
 Thanks!

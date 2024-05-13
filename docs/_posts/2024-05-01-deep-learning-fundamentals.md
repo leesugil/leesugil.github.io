@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Deep Learning Fundamentals"
+title:  "[WIP] Deep Learning Fundamentals"
 permalink: /artificial-intelligence/fundamentals/
 date:   2024-05-01 11:09:00 -0400
 categories: [artificial intelligence]
