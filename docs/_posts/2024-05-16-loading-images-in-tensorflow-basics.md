@@ -8,6 +8,8 @@ tags: [tech, tutorials, lecture, note, introduction, machine learning, deep lear
 mermaid: true
 ---
 
+I wrote my own version of TensorFlow tutorial for leading image data (basics).
+
 The official TensorFlow [tutorial document](https://www.tensorflow.org/tutorials/load_data/images){:target="_blank"} explains how to load image data to TensorFlow.
 
 I have the same tutorial explained in a slightly different way to meet my own taste, like explaining what's about TensorFlow specific, what's about string/path processing in Python in general, etc.
@@ -15,6 +17,8 @@ I have the same tutorial explained in a slightly different way to meet my own ta
 Because I essentially added more comments for beginner's perspective, I had to split the tutorial into two:
 - Loading image files into TensorFlow with details auto-tuned by TensorFlow utilities (Basic)
 - Loading images files into TensorFlow manually with fine-tuning the details by the user (Advanced)
+
+## Loading Image Data into TensorFlow
 
 Here's the [basic version of the guideline that I wrote in Google Colab](https://colab.research.google.com/drive/1JtNdWPINfdf_AVXcE4xoOOeUJfWWm2oZ?usp=sharing){:target="_blank"}. There will be another posting for the advanced method.
 

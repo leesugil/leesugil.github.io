@@ -10,8 +10,12 @@ posts:
     children:
       - title: "Deep Learning Fundamentals"
         url: /artificial-intelligence/fundamentals/
-      - title: "Getting Started with TensorFlow"
+      - title: "Getting Started with TF"
         url: /artificial-intelligence/tensorflow/
+      - title: "TF - Loading Images (Basic)"
+        url: /artificial%20intelligence/2024/05/16/loading-images-in-tensorflow-basics.html
+      - title: "TF - Loading Images (Advanced)"
+        url: /artificial%20intelligence/2024/05/23/loading-images-in-tensorflow-advanced.html
 
   - title: Software Engineering
     children:
