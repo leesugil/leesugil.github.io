@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[WIP] Recurrent Neural Network with TensorFlow"
+title:  "[WIP] Logit, Logistic, Softmax, Cross-entropy"
 permalink:
 date:   2024-05-08 21:42:00 -0400
 categories: [artificial intelligence]
@@ -10,4 +10,4 @@ mermaid: true
 
 ## (Plan for this post)
 
-I'm thinking of posting a tweaked version of official tensorflow tutorials as I go through several topics in artificial intelligence. Will try the RNN example in there and update this post later.
+Logit, Logistic function, Softmax function, cross-entropy... These are terms that could possibly be a hurdle to technicians from different fields of engineering. I'm planning to write about a concise summary of how they can be intuitively understood.
