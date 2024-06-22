@@ -16,6 +16,8 @@ posts:
         url: /artificial%20intelligence/2024/05/16/loading-images-in-tensorflow-basics.html
       - title: "TF - Loading Images (Advanced)"
         url: /artificial%20intelligence/2024/05/23/loading-images-in-tensorflow-advanced.html
+      - title: "TF - Loading Images (Built-in)"
+        url: /artificial%20intelligence/2024/05/30/loading-images-in-tensorflow-built-in.html
 
   - title: Software Engineering
     children:
