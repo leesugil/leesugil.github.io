@@ -12,7 +12,7 @@ mermaid: true
 
 Consider implementing a fast search algorithm of items in arrays. Say, given an array and a keyword $$k$$, we can compare $$k$$ with each element of the array until we have found the matching item. A brute-force comparison of each item in the array to $$k$$ will cost $$\mathcal{O}(n)$$.
 
-If we have a sorted array (at the cost of creating it at $$\mathcal{O}(n \log n)$$ instead of $$\mathcal{O}(n)$$), then a binary search will to the search job faster at $$\mathcal{O}(\log n)$$.
+If we have a sorted array (at the cost of creating it at $$\mathcal{O}(n \log n)$$ instead of $$\mathcal{O}(n)$$), then a binary search will do the search job faster at $$\mathcal{O}(\log n)$$.
 
 Can we beat this cap?
 
