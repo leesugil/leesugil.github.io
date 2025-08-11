@@ -1,0 +1,10 @@
+{% for item in site.data.resume.objective %}
+{% if item.category == page.category %}
+{% if item.subcategory  %}
+{% if item.subcategory == page.subcategory %}
+{% for title in item.titles %}<span style="font-size: 1.1em;">{{ title }}{% unless forloop.last %}, {% endunless %}</span>
+{% endfor %}
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}

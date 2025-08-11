@@ -1,0 +1,700 @@
+# Master resume variables
+
+education:
+  - degree: Ph. D. in Mathematics
+    institution: Michigan State University
+    year: 2020
+    thesis:
+      title: Galois Module Structure of Weakly Ramified Covers of Curves
+      fields:
+        - Algebraic Curves
+        - Algebraic Geometry
+        - Arithmetic Geometry
+        - Number Theory
+      advisor: Dr. Georgios Pappas
+  - degree: B.S. in Mathematics
+    institution: Stony Brook University
+    year: 2013
+  - degree: B.S. in Statistics
+    institution: Sungkyunkwan University
+    year: 2010
+  - degree: B.S. in Business Administration
+    institution: Sungkyunkwan University
+    year: 2010
+
+research:
+  - title: Galois Module Structure of Weakly Ramified Covers of Curves
+    position: Dissertation
+    institution: Michigan State University
+    year: 2020
+    abstract: The main theme of our study is the obstruction to the existence of a normal integral basis for certain Galois modules of geometric origin. When \\(G\\) is a finite group acting on a projective scheme \\(X\\) over \\(Spec\\ \\mathbb{Z}\\) and \\(\\mathcal{F}\\) is a \\(G\\)-equivariant coherent sheaf of \\(\mathcal{O}_X\\)-modules, the sheaf cohomology groups \\(H_i(X, \\mathcal{F})\\) are \\(G\\)-modules, and one asks if its equivariant Euler characteristic \\(\\chi(X, \\mathcal{F})\\) can be calculated using a bounded complex of finitely generated free modules over \\(Z[G]\\). Then we say that the cohomology of \\(\\mathcal{F}\\) has a normal integral basis. The obstruction to the existence of a normal integral basis has been of great interest in the classical case of number fields. Our aim is to generalize the theory on a finite tamely ramified Galois extension \\(N/\\mathbb{Q}\\) with Galois group \\(G\\) to the simplest kind of wild ramification, namely to weakly ramified covers of curves over \\(Spec\\ \\mathbb{Z}\\).
+    url: https://d.lib.msu.edu/etd/48842
+    tags:
+      - Algebraic Geometry
+      - Arithmetic Geometry
+      - Number Theory
+      - Galois Module Structure
+      - Algebraic Curves
+    advisor: Dr. Georgios Pappas
+    category: research
+
+awards:
+  - title: Excellence in Teaching Award
+    institution: Michigan State University
+    year: 2018
+  - title: Dissertation Completion Fellowship
+    institution: Michigan State University
+    year: 2018
+
+teaching:
+  - year: 2018 -- 2019
+    courses:
+      - name: Calculus III
+        institution: Michigan State University
+        term: Summer 2019
+        term_short: US19
+        lead: true
+        description: Multivariable Calculus
+      - name: Calculus II
+        institution: Michigan State University
+        term: Spring 2019
+        term_short: SS19
+        lead: false
+        description: Integrals and Paths
+  - year: 2017 -- 2018
+    courses:
+      - name: Calculus IV
+        institution: Michigan State University
+        term: Summer 2018
+        term_short: US18
+        lead: true
+        description: Ordinary Differential Equations
+      - name: Calculus IV
+        institution: Michigan State University
+        term: Spring 2018
+        term_short: SS18
+        lead: false
+        description: Ordinary Differential Equations
+      - name: Calculus III
+        institution: Michigan State University
+        term: Fall 2017
+        term_short: FS17
+        lead: false
+        description: Multivariable Calculus
+  - year: 2016 -- 2017
+    courses:
+      - name: Transitions
+        institution: Michigan State University
+        term: Spring 2017
+        term_short: SS17
+        lead: true
+        description: Introduction to Mathematical Proof
+      - name: Transitions
+        institution: Michigan State University
+        term: Fall 2016
+        term_short: FS16
+        lead: false
+        description: Introduction to Mathematical Proof
+  - year: 2015 -- 2016
+    courses:
+      - name: Calculus III
+        institution: Michigan State University
+        term: Summer 2016
+        term_short: US16
+        lead: true
+        description: Multivariable Calculus
+      - name: Calculus IV
+        institution: Michigan State University
+        term: Spring 2016
+        term_short: SS16
+        lead: true
+        description: Ordinary Differential Equations
+      - name: Calculus II
+        institution: Michigan State University
+        term: Fall 2015
+        term_short: FS15
+        lead: false
+        description: Integrals and Paths
+  - year: 2014 -- 2015
+    courses:
+      - name: Calculus III
+        institution: Michigan State University
+        term: Summer 2015
+        term_short: US15
+        lead: true
+        description: Multivariable Calculus
+      - name: Calculus IV
+        institution: Michigan State University
+        term: Spring 2015
+        term_short: SS15
+        lead: true
+        description: Ordinary Differential Equations
+      - name: Survey in Calculus I
+        institution: Michigan State University
+        term: Fall 2014
+        term_short: FS14
+        lead: true
+        description: Introductory Calculus I
+  - year: 2013 -- 2014
+    courses:
+      - name: Calculus I
+        institution: Michigan State University
+        term: Summer 2014
+        term_short: US14
+        lead: true
+        description: Single Variable Calculus
+      - name: Survey in Calculus I
+        institution: Michigan State University
+        term: Spring 2014
+        term_short: SS14
+        lead: true
+        description: Introductory Calculus I
+      - name: AP Calculus III
+        institution: Michigan State University
+        term: Fall 2013
+        term_short: FS13
+        lead: false
+        description: AP
+
+jobs:
+  # Accounting
+  - title: Senior Accounting Manager
+    location:
+      - Multiple locations
+      - Atlanta, GA
+      - Remote, US
+    date: Dec 2024 -- Present
+    category: accounting
+    role: Establish and maintain internal accounting standards in compliance with GAAP. Deploy cost-effective accounting system solutions to integrate and manage tens of thousands of transactions per year across dozens of business accounts. Develop, monitor, and review long-term financial strategies.
+    tags:
+      - Generally Accepted Accounting Principles (GAAP)
+      - Financial Reports
+      - Internal Audit
+      - Accounting Systems
+      - Software Solutions
+      - Open Source Solutions
+      - Finance
+      - Strategy
+      - Double-Entry Book Keeping
+  - title: Accounting Manager
+    location:
+      - Multiple locations
+      - New Orleans, LA
+      - Montgomery, AL
+    date: Oct 2021 -- Nov 2023
+    category: accounting
+    role: Maintained the general ledgers for multiple small and medium-sized enterprises (SMEs). Prepared financial statements and reports for tax filings and financial reporting requirements.
+    tags:
+      - Generally Accepted Accounting Principles (GAAP)
+      - Double-Entry Book Keeping
+      - Financial Reports
+      - General Ledger
+      - Balance Sheet
+      - Income Statement
+      - Accounting Software
+  - title: Sales Operations Specialist
+    organization: IBM Korea
+    location: Seoul, Korea
+    date: Jan 2010 -- Jul 2010
+    category: accounting
+    role: Worked in the internal sales data hub to support the organization meeting its sales goals. The team was responsible for maintaining the sales data pipeline and yielding metrics for the regional/global management. Was trained to identify sales opportunities and be part of strategic plan to achieve goals.
+    role: Worked as part of the internal sales operations head team to maintain data pipelines, generate actionable metrics, and support data-driven decision-making for regional and global leadership. Trained to understand sales operations and contribute to strategic planning efforts.
+    tags:
+      - Business Strategies
+      - Sales
+      - Finance
+      - Operations
+      - International Corporations
+      - IBM Global Sales School (GSS)
+
+# Applied Science and Development
+  - title: Senior Data Scientist
+    location:
+      - Multiple locations
+      - Atlanta, GA
+      - New Orleans, LA
+      - Montgomery, AL
+      - Remote, US
+    date: Dec 2020 -- Present
+    category: development
+    role: Design and deploy open-source data pipelines for data acquisition across traditional small and medium-sized business sectors, supporting internal projects with $2M–$24M in annual revenue. Identify key performance indicators (KPIs) and metrics for manufacturing and construction projects, enabling data-driven improvements in cost optimization, project delivery, and operational efficiency.
+    tags:
+      - Python
+      - Pandas
+      - SciPy
+      - Numpy
+      - Scikit-Learn
+      - PyTorch
+      - TensorFlow
+      - Statistical Data Analysis
+      - Regression Analysis
+      - Principal Component Analysis (PCA)
+      - Machine Learning
+      - Relational Database Management Systems (RDMBS)
+      - MySQL
+      - PostgreSQL
+      - MariaDB
+      - Containerization
+      - Docker
+      - Amazon Web Services (AWS)
+      - Data Science
+      - Data Engineering
+  - title: Software Engineer
+    location:
+      - Multiple locations
+      - Atlanta, GA
+      - New Orleans, LA
+      - Montgomery, AL
+      - Remote, US
+    date: Oct 2021 -- Present
+    category: development
+    role: Develop software modules for internal management systems (ERP, CRM, SCM, project management, accounting, HR) using open-source tools to build a data-driven business infrastructure and reduce reliance on high-cost SaaS solutions — achieving comparable functionality at a fraction of the cost. Design, develop, and maintain both front-end and back-end components of in-house systems, resulting in annual operational savings of $10K–$100K.
+    tags:
+      - Full-Stack
+      - Front-End
+      - Back-End
+      - Python
+      - C
+      - C++
+      - Git
+      - GitHub
+      - Amazon Web Services (AWS)
+      - Nginx
+      - Database (DB)
+      - Relational Database Management Systems (RDBMS)
+      - MySQL
+      - PostgreSQL
+      - MariaDB
+      - Containerization
+      - Docker
+      - Software as a Service (SaaS)
+      - HTML
+      - CSS
+      - JavaScript
+      - Bootstrap
+      - Odoo
+      - Frappe
+      - Django
+      - Documentation
+      - Linux
+      - RESTful API
+      - SSH
+      - SFTP
+      - SSL
+      - Let's Encrypt
+      - Certbot
+      - HTTPS
+  - title: Solution Architect
+    location:
+      - Multiple locations
+      - Atlanta, GA
+      - New Orleans, LA
+      - Montgomery, AL
+      - Remote, US
+    date: Jan 2024 -- Present
+    category: development
+    role: Monitor and evaluate technology solutions (AI, cloud computing, client-server architectures) for traditional industries such as manufacturing, logistics, storage, and labor markets. Assess the viability of these solutions to optimize operations and maintain the organization’s strategic advantage. Design databases, application layers, and security protocols to support the organization’s technological infrastructure.
+    tags:
+      - Amazon Web Services (AWS)
+      - Cloud
+      - Relational Database Management Systems (RDBMS)
+      - MySQL
+      - PostgreSQL
+      - MariaDB
+      - Containerization
+      - Docker
+      - Security
+      - Linux
+      - Open Source
+      - Enterprise Resource Planning (ERP)
+      - Customer Relationship Management (CRM)
+      - Supply Chain Management (SCM)
+      - Accounting
+      - Project Management (PM)
+  - title: Operations Research and Infrastructure Engineer
+    location: Montgomery, AL
+    date: Dec 2020 -- Oct 2021
+    category: development
+    role: Identified and mapped operational processes, then implemented plans that significantly improved productivity. Discovered dozens of disconnected data acquisition, manual processing, and reporting workflows across a 600-employee organization in traditional sectors such as manufacturing, warehouse management, and HR. Delivered data-driven solutions to streamline these processes. Collaborated with cross-functional teams in the field to address blind spots and effectively implement the proposed improvements.
+    tags:
+      - Operations Research (OR)
+      - Process Optimization
+      - Industrial Mathematics
+      - Key Performance Index (KPI)
+      - Productivity
+      - Labor Market Analysis
+      - Operations
+      - Data Pipeline
+      - Data Engineering
+      - Python
+      - Pandas
+      - Google Apps Script
+  - title: Data Analyst
+    organization: Michigan State University, QED Environmental Systems Inc.
+    location: East Lansing, MI
+    date: Jan 2019 - May 2019
+    category: development
+    role: Applied statistical and machine learning techniques to develop a cost-prediction model in an industry-academia collaborative research project.
+    tags:
+      - Statistical Analysis
+      - Data Analysis
+      - Data Science
+      - Data Cleaning (Data Cleansing)
+      - Principal Component Analysis (PCA)
+      - Non-Linear Regression Analysis
+      - Decision Tree
+      - k-Means Clustering
+      - Cluster Analysis
+      - Deep Neural Network (DNN)
+      - Python
+      - Matplotlib
+      - NumPy
+      - SciPy
+      - Scikit-learn
+      - PyTorch
+      - TensorFlow
+      - Tableau
+  - title: Data Analyst Intern
+    organization: ECRA Group
+    location: Rosemont, IL
+    date: May 2009 - Aug 2009
+    category: development
+    role: Worked on a team providing statistical analysis and consulting services to K–12 educational institutions. Conducted data cleaning and correlation analysis on student academic performance data. Processed and organized various types of raw data for analysis.
+    tags:
+      - Amazon Web Services (AWS)
+      - Statistical Analysis
+      - Data Mining
+      - Data Analysis
+      - Data Science
+      - Data Cleaning (Data Cleansing)
+      - Multiple Data Types
+      - t-test
+      - Correlation Analysis
+      - Principal Component Analysis (PCA)
+      - Relational Database Management Systems (RDBMS)
+      - Microsoft Access
+  - category: resume
+    subcategory: development
+    date: Dec 2020 -- Present
+    position:
+      - title: Senior Data Scientist
+        date: Dec 2020 -- Present
+        role: Design and deploy open-source data pipelines for data acquisition across traditional small and medium-sized business sectors, supporting internal projects with $2M–$24M in annual revenue. Identify key performance indicators (KPIs) and develop predictive models through statistical analysis and machine learning techniques for time-sensitive assembly processes such as manufacturing and construction projects, enabling data-driven improvements in cost optimization, project delivery, and operational efficiency.
+      - title: Software Engineer (Promoted)
+        date: Oct 2021 -- Present
+        role: Develop software modules and web applications in C, C++, Python for internal management systems (ERP, CRM, SCM, PM, accounting, HR) using open-source tools to build a data-driven business infrastructure and reduce reliance on high-cost SaaS solutions — achieving comparable functionality at a fraction of the cost. Design, develop, and maintain both front-end and back-end components of in-house systems, resulting in annual operational savings of $10K–$100K.
+      - title: Solution Architect (Promoted)
+        date: Jan 2024 -- Present
+        role: Monitor and evaluate technology solutions (AI, cloud, client-server architectures) for traditional industries in manufacturing, logistics, storage, and labor markets. Assess the viability of these solutions to optimize operations and maintain the organization’s strategic advantage. Design databases, application layers, and security protocols to support the organization’s technological infrastructure.
+    location:
+      - Atlanta, GA
+      - Multiple Locations, US
+      - Remote
+    tags:
+      languages:
+        - C
+        - C++
+        - Python
+        - JavaScript
+      tools:
+        - Pandas
+        - NumPy
+        - SciPy
+        - Scikit-learn
+        - Matplotlib
+        - OpenCV
+        - PyTorch
+        - TensorFlow
+        - PyBAMM
+        - FreeCAD
+        - Bootstrap
+        - Jekyll
+        - Django
+        - Odoo
+        - Frappe
+        - p5.js
+      environments:
+        - Linux
+        - Embedded
+        - Git
+        - GitHub
+        - LLVM
+        - GCC
+        - Cloud
+        - Amazon Web Services (AWS)
+        - Nginx
+        - Containerization
+        - Docker
+        - DevOps
+        - CI/CD
+        - Relational Database Management Systems (RDBMS)
+        - Database (DB)
+        - SQL
+        - MySQL
+        - PostgreSQL
+        - MariaDB
+        - RESTful API
+        - SSH
+        - SFTP
+        - SSL
+        - Let's Encrypt
+        - Certbot
+        - Computer-Aided Design (CAD)
+        - Autodesk Fabrication
+      skills:
+        - Data Structures
+        - Algorithms
+        - Statistical Data Analysis
+        - t-Test
+        - Hypothesis Test
+        - A/B Test
+        - Simulation
+        - Monte Carlo Method
+        - Data Science
+        - Decision Tree
+        - k-Means Clustering
+        - Principal Component Analysis (PCA)
+        - Fast Fourier Transform (FFT)
+        - Non-Linear Regression Analysis
+        - Deep Neural Network (DNN)
+        - Machine Learning (ML)
+        - Artificial Intelligence (AI)
+        - Large Language Model (LLM)
+        - Modeling
+
+objective:
+  - category: resume
+    subcategory: development
+    titles:
+    - Data Scientist
+    - Software Engineer
+    - Solution Architect
+    - Applied Scientist
+    - Artificial Intelligence Engineer
+
+projects:
+# Accounting Projects
+  - title: Accounting Process Restructuring 
+    position: Senior Accounting Manager
+    location: Montgomery, AL
+    year: 2024 -- 2025
+    abstract: Revamped an accounting team with disorganized financial data and wrong accounting practices not meeting GAAP. Integrated over 20 unreconciled bank accounts and restored more than 30,000 missing entries in the general ledger. Led the implementation of a GAAP-compliant accounting system from the ground up, enabling the company to generate its first interim financial statements.
+    category: accounting
+    tags:
+      - Generally Accepted Accounting Principle (GAAP)
+      - QuickBooks Online
+      - Reconciliation
+      - ERP
+      - CRM
+      - Python
+      - Odoo
+      - ERPNext
+      - Financial Reporting
+      - Internal Controls
+      - Leadership
+      - Initiative
+  - title: Accounting for Construction Projects 
+    position: Accounting Manager
+    location: New Orleans, LA
+    year: 2021 -- 2023
+    abstract: Oversaw all financial operations for a newly launched construction subsidiary following Hurricane Ida. Established full-cycle accounting processes, including general ledger setup, GAAP-compliant bookkeeping, payroll, AP/AR, and cash management—supporting multiple active job sites. Managed weekly payroll, invoicing, collections, and project-level financial reporting to ensure accurate visibility and compliance from the ground up. Produced financial statements and applied accounting principles to inform operational decision-making in a high-pressure, early-stage environment.
+    category: accounting
+    tags:
+      - Generally Accepted Accounting Principle (GAAP)
+      - QuickBooks Online
+      - Reconciliation
+      - ERP
+      - CRM
+      - Construction
+      - Python
+      - Odoo
+      - ERPNext
+      - Start-Up
+      - Leadership
+      - Initiative
+
+# Educational Projects
+  - title: Lightweight Computer Algebra System (CAS)
+    position: Developer
+    institution: Independent
+    location: Atlanta, GA
+    year: 2024
+    abstract: A self-directed project to build a minimal symbolic math engine in C/C++, supporting variable assignments, expression parsing, and recursive evaluation. Designed core components including a custom interpreter, decision tree logic, and linked data structures to simulate functionality found in modern CAS tools like Mathematica or SymPy.
+    category: education
+    tags:
+      - STEM Education
+      - Computer Algebra System (CAS)
+      - Symbolic Computation
+      - Expression Parsing
+      - Linked Data Structure
+      - Recursive Algorithms
+      - Decision Tree
+      - Interpreter
+      - Math Engine
+      - Data Structures
+      - C/C++
+      - Low-Level Programming
+      - Initiative
+  - title: Math Curriculum Development
+    position: Instructor
+    institution: Michigan State University
+    location: East Lansing, MI
+    year: 2016 -- 2017
+    abstract: Contributed to the development of course materials and instructional strategies for an introductory proofs course through a joint initiative between the Departments of Mathematics and Mathematics Education. Focused on improving pedagogy and student engagement in foundational reasoning and proof-based learning.
+    category: education
+    tags:
+      - STEM Education
+      - Curriculum Design
+      - Instructional Development
+      - Collaborative Teaching
+      - Initiative
+
+# Industrial Projects
+  - title: System Deployment & Module Development 
+    position: Systems Engineer
+    location: Atlanta, GA
+    year: 2024 -- Present
+    abstract: Defined the scope and architecture of an internal enterprise system, implemented it using open-source frameworks and databases while adhering to license constraints. Developed custom modules, deployed the system to a containerized AWS environment using Docker, and established RESTful API integrations with partner servers to automate HR and financial operations. The system reduced payroll and invoicing processing time by over 85% for a 600-employee operation, streamlined multi-state compliance workflows, and alleviated recurring operational bottlenecks.
+    category: development
+    tags:
+      - Amazon Web Services (AWS)
+      - Odoo
+      - Frappe
+      - Python
+      - Relational Database Management System (RDBMS)
+      - MariaDB
+      - PostgreSQL
+      - Docker
+      - RESTful APIs
+      - Containerization
+      - CI/CD
+      - Documentation
+      - Leadership
+      - Initiative
+  - title: Operational Systems Recovery & Modernization
+    position: Systems Engineer
+    location: Atlanta, GA
+    year: 2024
+    abstract: Restored and modernized a mission-critical manufacturing subsystem in a 60,000 sqft facility supporting a $17M project, following the abrupt exit of the operations manager. Self-trained on legacy CAD and laser-cutting systems to prevent downtime and maintain continuity for a 40-person production team. Built and deployed an internal web platform to centralize documentation, training, and progress tracking—establishing a sustainable framework for operations and onboarding. The solution prevented a factory shutdown, eliminated a $120K/year single point of failure, and safeguarded key contractual deliverables.
+    category: development
+    tags:
+      - Web Application Development
+      - Internal Tools
+      - Django
+      - Odoo
+      - Python
+      - Process Continuity
+      - Technical Documentation
+      - Computer-Aided Design (CAD)
+      - Knowledge Transfer
+      - Leadership
+      - Initiative
+  - title: Lightweight Symbolic Math Engine
+    position: Developer
+    institution: Independent
+    location: Atlanta, GA
+    year: 2024
+    abstract: Designed and implemented a minimal computer algebra system in C/C++, supporting symbolic evaluation, function composition, and recursive expression parsing. Built custom memory handling, interpreter logic, and data structures to simulate features of modern math engines in a resource-constrained context.
+    category: development
+    tags:
+      - C
+      - C++
+      - Low-Level Memory Management
+      - Recursive Algorithms
+      - Interpreters
+      - Systems Programming
+      - Expression Parsing
+      - Symbolic Math
+      - Initiative
+      - Self-Directed Engineering
+  - title: Django-Based Internal Management Platform
+    position: Systems Engineer
+    location: New Orleans, LA
+    year: 2022 -- 2023
+    abstract: Led the development of a modular, web-based project management platform to manage 20 concurrent post-disaster construction projects (~$2M total) following Hurricane Ida. Consolidated accounting, project management, invoicing, and collections into a unified system—replacing four separate roles and saving an estimated $200K annually. Built custom tools integrating project calendars, weather data, and Google Maps APIs to support site-level logistics. The platform centralized documentation, streamlined workflows, and improved cross-project visibility in a high-pressure, resource-constrained environment.
+    category: development
+    tags:
+      - Django
+      - Python
+      - Full-Stack Development
+      - Web Application Architecture
+      - Internal Tools
+      - Relational Database Management System (RDBMS)
+      - Google Maps API
+      - Weather API Integration
+      - Leadership
+      - Initiative
+      - Start-Up
+  - title: Centralized HR Data Pipeline for Real-Time Reporting
+    position: Software Engineer (Infrastructure Tools)
+    year: 2021
+    abstract: Built automation scripts to consolidate decentralized HR timesheet entries from 100+ employees in a 24/7 manufacturing facility into a unified database, enabling on-demand report generation, improving data consistency, and reducing reporting time by 95%.
+    category: development
+    tags:
+      - Process Optimization
+      - Automation
+      - Python
+      - JavaScript
+      - Google Apps Script
+      - Google Workplace
+      - Human Resources
+      - Centralized Database
+      - Operations Research
+      - Initiative
+  - title: Predictive Modeling of Shipping Weights and Cost
+    position: Data Analyst
+    institution:
+      - Michigan State University
+      - QED Environmental Systems Inc.
+    year: 2019
+    abstract: "The goal was to answer to the following business problem: Can we yield an estimated shipping quote quickly during the sales process of heavy, irregularly shaped products? Applied statistical data analysis and machine-learning techniques (non-linear regression analysis, PCA, DNN) on dimensions of items, sales and shipping records, and merged with APIs available from nation-wide shipping vendors to yield a deliverable model."
+    category: development
+    tags:
+      - Data Science
+      - Machine Learning
+      - Non-Linear Regression Modeling
+      - Multi-Dimensional Analysis
+      - Principal Component Analysis (PCA)
+      - Deep Neural Network (DNN)
+      - Sparse Matrix
+      - Python
+      - NumPy
+      - PyTorch
+      - TensorFlow
+      - Scikit-Learn
+      - Matplotlib
+      - Packaging and Dimensional Analysis
+      - Industrial Mathematics
+      - Operations Research
+      - Initiative
+      - Applied Mathematics
+  - title: Process Optimization System Development 
+    year: 2024 -- Present
+    abstract: Defined the scope and architecture of an internal enterprise system (application layers and DB), implemented it using open-source frameworks and relational database management systems while adhering to license constraints. Developed custom modules, deployed the system to a containerized AWS environment using Docker, and established RESTful API integrations with partner servers to automate HR and financial operations. The system reduced payroll and invoicing processing time by over 85% for a 600-employee operation, streamlined multi-state compliance workflows, and alleviated recurring operational bottlenecks.
+    category: resume
+    subcategory: development
+  - title: Operational Systems Recovery & Modernization
+    year: 2024
+    abstract: Restored and modernized a mission-critical manufacturing subsystem in a 60,000 sqft facility supporting a $17M project, following the abrupt exit of the operations manager. Self-trained on legacy CAD and laser-cutting systems to prevent downtime and maintain continuity for a 40-person production team. Built and deployed an internal web platform to centralize documentation, training, and progress tracking—establishing a sustainable framework for operations and onboarding. The solution prevented a factory shutdown, eliminated a $120K/year single point of failure, and safeguarded key contractual deliverables.
+    category: resume
+    subcategory: development
+  - title: Lightweight Symbolic Math Engine
+    year: 2024
+    abstract: Designed and implemented a minimal computer algebra system in C/C++, supporting symbolic evaluation, function composition, and recursive expression parsing. Built custom memory handling, interpreter logic, and data structures to simulate features of modern math engines in a resource-constrained context.
+    category: resume
+    subcategory: development
+  - title: Internal Management Web-App
+    year: 2022 -- 2023
+    abstract: Led the development of a modular, web-based project management platform to manage 20 concurrent post-disaster construction projects (~$2M total) following Hurricane Ida. Consolidated accounting, project management, invoicing, and collections into a unified system—replacing four separate roles and saving an estimated $200K annually. Built custom tools integrating project calendars, weather data, and Google Maps APIs to support site-level logistics. The platform centralized documentation, streamlined workflows, and improved cross-project visibility in a high-pressure, resource-constrained environment.
+    category: resume
+    subcategory: development
+  - title: Centralized HR Data Pipeline for Real-Time Reporting
+    year: 2021
+    abstract: Built automation scripts to consolidate decentralized HR timesheet entries from 100+ employees in a 24/7 manufacturing facility into a unified database, enabling on-demand report generation, improving data consistency, and reducing reporting time by 95%.
+    category: resume
+    subcategory: development
+  - category: resume
+    subcategory: development
+    title: Predictive Modeling of Shipping Weights and Cost
+    year: 2019
+    abstract: Developed a predictive model to estimate shipping costs during sales for heavy construction parts with irregular shapes. Applied statistical data analysis and machine-learning techniques (non-linear regression analysis, PCA, DNN) on dimensions of items, sales and shipping records, and merged with APIs available from nation-wide shipping vendors to yield a deliverable model.

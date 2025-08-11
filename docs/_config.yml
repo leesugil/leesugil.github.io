@@ -1,0 +1,145 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Sugil Steve Lee | Welcome
+name: Sugil Steve Lee
+email: sugilmath@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is the website for Sugil Steve Lee - a mathematician, software engineer, and accountant. Crafted in Jekyll and Bootstrap by STUDIO 3216.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: leesugil
+linkedin: https://www.linkedin.com/in/sugil-lee/
+github: https://github.com/leesugil
+instagram: https://www.instagram.com/lee.sugil/
+webpage: https://leesugil.github.io
+webpage_dev: https://leesugil.github.io/development
+
+
+# Build settings
+#theme: minima
+plugins:
+  - jekyll-feed
+
+# Master resume variables
+education:
+  - degree: Ph. D. in Mathematics
+    institution: Michigan State University
+    year: 2020
+  - degree: B.S. in Mathematics
+    institution: Stony Brook University
+    year: 2013
+  - degree: B.S. in Statistics
+    institution: Sungkyunkwan University
+education-1: B.S. in Business Administration, Sungkyunkwan University
+education-1-date: 2010
+education-2: B.S. in Statistics, Sungkyunkwan University
+education-2-date: 2010
+education-3: B.S. in Mathematics, Stony Brook University
+education-3-date: 2013
+education-4: Ph.D. in Mathematics, Michigan State University
+education-4-date: 2020
+research-1: |
+  Galois Module Structure of Weakly Ramified Covers of Curves
+  Dissertation, Michigan State University, 2020
+research-1-date: 2020
+research-1-tags: Algebraic geometry, arithmetic geometry, number theory, Galois module structure, algebraic curves
+research-1-advisor: Dr. Georgios Pappas
+award-1: Excellence in Teaching Award, Michigan State University
+award-1-date: 2018
+award-2: Dissertation Completion Fellowship, Michigan State University
+award-2-date: 2018
+job-1:
+  title: Data Analyst Intern
+  location: Rosemont, IL
+  date: May 2009 to Aug 2009
+job-2:
+  title: Sales Operations Specialist
+  location: Seoul, Korea
+  date: Jan 2010 to Jul 2010
+job-3:
+  title: Operations Research and Infrastructure Engineer
+  location: Montgomery, AL
+  date: Dec 2020 to Nov 2020
+job-4:
+  title: Systems Engineer
+  location:
+    label: Multiple locations
+    cities:
+      - Atlanta, GA
+      - New Orleans, LA
+      - Montgomery, AL
+  date: Nov 2020 to Present
+job-5:
+  title: Accounting Manager
+  location:
+    label: Multiple locations
+    cities:
+      - New Orleans, LA
+      - Montgomery, AL
+  date: Nov 2020 to Nov 2023
+job-6:
+  title: Senior Accounting Manager
+  location: Atlanta, GA
+  date: Dec 2024 to Present
+
+
+project-1: |
+  Predictive Modeling of Shipping Weights and Cost
+  Data Analyst, Michigan State University and QED Environmental Systems Inc.
+project-1-date: 2019
+project-1-detail: a
+project-1-tags: Data Science, Machine Learning, Non-linear Regression Modeling, Principle Component Analysis (PCA), Sparse Matrix, Python, NumPy, PyTorch, TensorFlow, Scikit-Learn, Matplotlib, Packaging and Dimensional Analysis, Industrial Mathematics, Operations Research
+project-2: |
+  Centralized HR Data Pipeline for Real-Time Reporting
+  Software Engineer (Infrastructure Tools)
+project-2-date: 2020
+project-2-detail: Built automation scripts to consolidate decentralized HR timesheet entries from 100+ employees in a 24/7 manufacturing facility into a unified database, enabling on-demand report generation, improving data consistency, and reducing reporting time by 95%.
+project-2-tags: Process Optimization, Automation, Python, JavaScript, Google Apps Script, Google Workplace, Human Resourced, Centralized Database, Operations Research
+project-3: |
+  Django-Based Internal Management Platform
+  Systems Engineer, New Orleans, LA
+project-3-date: 2021
+project-3-detail: Took initiative to streamline fragmented operations including accounting, pipeline tracking, client communication, invoice generation, and collections. Architected a modular, web-based toolset tailored to real-world workflows, integrating project calendars, weather data, and Google Maps APIs for site logistics. The system evolved into a lightweight, internal-use ERP that reduced manual effort, improved documentation, and centralized cross-project visibility.
+project-3-tags:
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+kramdown:
+  parse_block_html: true

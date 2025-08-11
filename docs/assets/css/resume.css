@@ -1,0 +1,72 @@
+:root {
+	--golden-ratio: 1.618;
+	--golden-ratio-rem: 1.618rem;
+	--golden-ratio-decimal-rem: 0.1618rem;
+	--golden-ratio-px: 1.618px;
+	--silver-ratio: 2.414;
+	--silver-ratio-rem: 2.414rem;
+	--silver-ratio-px: 2.414px;
+}
+
+body {
+	font-size: 12px;
+}
+
+.vertical-line-text {
+	position: relative;
+	padding-left: 1rem;
+	border-left: 0 solid transparent;
+	padding-right: var(--golden-ratio-rem);
+}
+
+.vertical-line-text::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: var(--golden-ratio-px);
+	background-color: currentColor;
+}
+
+.link-plain {
+	color: black;
+	text-decoration: none;
+}
+
+.link-dark {
+	color: black;
+}
+
+.img-bg {
+	position: absolute;
+	transform-origin: center;
+	z-index: -1;
+}
+
+.emphasis-inverted {
+	color: white;
+	background-color: black;
+	/*padding: var(--golden-ratio-decimal-rem);*/
+	padding: 0.25rem;
+}
+
+.light-dark {
+	color: #222222;
+}
+
+.br-soft {
+	display: block;
+	height: 0.85em;
+}
+
+.br-softer {
+	display: block;
+	height: 0.5em;
+}
+
+.br-softest {
+	display: block;
+	height: 0.15em;
+}
+
