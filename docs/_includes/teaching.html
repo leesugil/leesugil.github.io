@@ -1,0 +1,8 @@
+{% for year in site.data.resume.teaching %}
+- <b style="font-size: var(--golden-ratio-rem);">{{ year.year }}</b>
+{% for term in year.courses %}
+    - *{% if term.lead == true %}<b>{{ term.name }}</b>{% else %}{{ term.name }}{% endif %} ({{ term.description }})* -- {{ term.term }} ({{ term.term_short }})
+
+        {% if forloop.last %}{{ term.institution }}{% endif %}
+{% endfor %}
+{% endfor %}

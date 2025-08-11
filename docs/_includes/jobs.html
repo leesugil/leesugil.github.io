@@ -1,0 +1,28 @@
+{% for item in site.data.resume.jobs %}
+{% if item.category == page.category %}
+{% if item.subcategory %}
+{% if item.subcategory == page.subcategory %}
+<b style="font-size: 1.1em;">{{ item.organization }}</b> ({{ item.date }})
+<br>{% for loc in item.location %}{{ loc }}{% unless forloop.last %} \| {% endunless %}{% endfor %}
+
+{% for pos in item.position %}
+**{{ pos.title }}** ({{ pos.date }})
+<br>• {{ pos.role }}
+{% endfor %}
+**Languages:** {% for tag in item.tags.languages %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+<br>**Tools:** {% for tag in item.tags.tools %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+<br>**Environments:** {% for tag in item.tags.environments %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+<br>**Skills:** {% for tag in item.tags.skills %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+{% endif %}
+{% else %}
+- <b style="font-size: var(--golden-ratio-rem);">{{ item.title }}</b>
+<br>{% if page.disclose %}{{ item.organization }} ({% endif %}{{ item.date }}{% if page.disclose %}){% endif %}
+<br>{% for loc in item.location %}{{ loc }}{% unless forloop.last %} | {% endunless %}{% endfor %}
+<span class="br-softer"></span>
+	- **Role:** {{ item.role }}
+<span class="br-softest"></span>
+    - <small class="text-muted">**Related:** {% for tag in item.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}</small>
+<span class="br-soft"></span>
+{% endif %}
+{% endif %}
+{% endfor %}

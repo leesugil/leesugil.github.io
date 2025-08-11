@@ -1,0 +1,140 @@
+:root {
+	--golden-ratio: 1.618;
+	--golden-ratio-em: 1.618rem;
+	--golden-ratio-rem: 1.618rem;
+	--golden-ratio-decimal-rem: 0.1618rem;
+	--golden-ratio-px: 1.618px;
+	--silver-ratio: 2.414;
+	--silver-ratio-em: 2.414rem;
+	--silver-ratio-rem: 2.414rem;
+	--silver-ratio-px: 2.414px;
+	--brown-ratio: 0.875;
+	--brown-ratio-rem: 0.875rem;
+	--brown-ratio-em: 0.875em;
+}
+
+body {
+	font-size: 1.5em;
+}
+
+.vertical-line-text {
+	position: relative;
+	padding-left: 1rem;
+	border-left: 0 solid transparent;
+	padding-right: var(--golden-ratio-rem);
+}
+
+.vertical-line-text::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: var(--golden-ratio-px);
+	background-color: currentColor;
+}
+
+.link-plain {
+	color: black;
+	text-decoration: none;
+}
+
+.link-dark {
+	color: black;
+}
+
+.img-bg {
+	position: absolute;
+	transform-origin: center;
+	z-index: -1;
+}
+
+.emphasis-inverted {
+	color: white;
+	background-color: black;
+	/*padding: var(--golden-ratio-decimal-rem);*/
+	padding-top: 0.0em;
+	padding-bottom: 0.14em;
+	padding-left: 0.14em;
+	padding-right: 0.14em;
+}
+
+.light-dark {
+	color: #222222;
+}
+
+.light-white {
+	color: #DDDDDD;
+}
+
+.br-soft {
+	display: block;
+	height: 0.85em;
+}
+
+.br-softer {
+	display: block;
+	height: 0.5em;
+}
+
+.br-softest {
+	display: block;
+	height: 0.15em;
+}
+
+.code-style {
+	font-family: var(--bs-font-monospace);
+	font-size: var(--brown-ratio-em);
+}
+
+.focus-rectangle {
+	position: relative;
+}
+
+.focus-rectangle::before {
+	content: '';
+	position: absolute;
+	top: -1.2em;
+	bottom: -1.2em;
+	left: 1em;
+	right: -0.2em;
+	/*background-color: #f5f5f5;*/
+	background-color: #0000000a;
+	z-index: -1;
+}
+
+.focus-rectangle-sm {
+	position: relative;
+}
+
+.focus-rectangle-sm::before {
+	content: '';
+	position: absolute;
+	top: -300%;
+	bottom: -70%;
+	left: -1.65%;
+	right: 65%;
+	background-color: #0000000c;
+	z-index: -1;
+}
+
+.focus-rectangle-intro {
+	position: relative;
+}
+
+.focus-rectangle-intro::before {
+	content: '';
+	position: absolute;
+	/*
+	top: -10em;
+	bottom: -3em;
+	left: 25%;
+	right: 12%;
+	*/
+	top: -10.25em;
+	bottom: -5em;
+	left: 5.5em;
+	right: 0.5em;
+	background-color: #f5f5f5;
+	z-index: -1;
+}

@@ -1,0 +1,17 @@
+<div class="container my-5 small">
+	<br><br>
+	<h3><a class="link-dark" href="mailto:{{ site.email }}"><b>CONTACT</b></a></h3>
+	<br><br>
+	<h4>{{ site.name }}
+	<br><b>Ph.D. in Mathematics</b>
+	<br>B.S. in Mathematics, Statistics, Business
+	</h4>
+	<br>
+	{% for item in site.data.footer.poem %}
+		<div>{{ item }}</div>
+	{% endfor %}
+	<br>
+	© 2025 Sugil Lee. All rights reserved.
+	<br>
+	<a class="link-dark" href="#top">Back to top</a>
+</div>

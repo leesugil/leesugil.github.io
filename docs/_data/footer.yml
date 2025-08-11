@@ -1,0 +1,6 @@
+spacing: <br><br><br><br><br>
+poem:
+  - Made in Jekyll and Bootstrap,
+  - Aesthetics by <a class="link-plain" href="{{ '/studio3216/' | relative_url }}"><b>STUDIO 3216</b></a>,
+  - Threaded with your support,
+  - Handcrafted with love and curiosity.
