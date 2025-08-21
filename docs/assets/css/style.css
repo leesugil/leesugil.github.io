@@ -11,6 +11,7 @@
 	--brown-ratio: 0.875;
 	--brown-ratio-rem: 0.875rem;
 	--brown-ratio-em: 0.875em;
+	--almost-black: #121212;
 }
 
 body {
@@ -51,8 +52,7 @@ body {
 
 .emphasis-inverted {
 	color: white;
-	background-color: black;
-	/*padding: var(--golden-ratio-decimal-rem);*/
+	background-color: var(--almost-black);
 	padding-top: 0.0em;
 	padding-bottom: 0.14em;
 	padding-left: 0.14em;
@@ -98,7 +98,6 @@ body {
 	bottom: -1.2em;
 	left: 1em;
 	right: -0.2em;
-	/*background-color: #f5f5f5;*/
 	background-color: #0000000a;
 	z-index: -1;
 }
@@ -125,16 +124,90 @@ body {
 .focus-rectangle-intro::before {
 	content: '';
 	position: absolute;
-	/*
-	top: -10em;
-	bottom: -3em;
-	left: 25%;
-	right: 12%;
-	*/
 	top: -10.25em;
 	bottom: -5em;
 	left: 5.5em;
 	right: 0.5em;
 	background-color: #f5f5f5;
 	z-index: -1;
+}
+
+.p-6 { padding: 4rem !important; }
+.p-7 { padding: 4.5rem !important; }
+.p-8 { padding: 5rem !important; }
+.p-9 { padding: 5.5rem !important; }
+.px-6 { padding-left: 4rem !important; padding-right: 4rem !important; }
+.py-6 { padding-top: 4rem !important; padding-bottom: 4rem !important; }
+.px-7 { padding-left: 4.5rem !important; padding-right: 4.5rem !important; }
+.py-7 { padding-top: 4.5rem !important; padding-bottom: 4.5rem !important; }
+.px-8 { padding-left: 5rem !important; padding-right: 5rem !important; }
+.py-8 { padding-top: 5rem !important; padding-bottom: 5rem !important; }
+.px-9 { padding-left: 5.5rem !important; padding-right: 5.5rem !important; }
+.py-9 { padding-top: 5.5rem !important; padding-bottom: 5.5rem !important; }
+
+.m-6 { margin: 4rem !important; }
+.m-7 { margin: 4.5rem !important; }
+.m-8 { margin: 5rem !important; }
+.m-9 { margin: 5.5rem !important; }
+.mx-6 { margin-left: 4rem !important; margin-right: 4rem !important; }
+.my-6 { margin-top: 4rem !important; margin-bottom: 4rem !important; }
+.mx-7 { margin-left: 4.5rem !important; margin-right: 4.5rem !important; }
+.my-7 { margin-top: 4.5rem !important; margin-bottom: 4.5rem !important; }
+.mx-8 { margin-left: 5rem !important; margin-right: 5rem !important; }
+.my-8 { margin-top: 5rem !important; margin-bottom: 5rem !important; }
+.mx-9 { margin-left: 5.5rem !important; margin-right: 5.5rem !important; }
+.my-9 { margin-top: 5.5rem !important; margin-bottom: 5.5rem !important; }
+
+.lrcontrast-parent {
+	position: relative;
+}
+
+.lrcontrast-child-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, rgba(12,12,12,1) 0%, rgba(12,12,12,1) 40%, rgba(12,12,12,0) 40%);
+	color: transparent;
+}
+
+.lrcontrast-child-text {
+	position: relative;
+	background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(0,0,0,1) 40%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.lrcontrast-child-text-mustard {
+	background: linear-gradient(to right, rgba(255,226,91,1) 0%, rgba(255,226,91,1) 40%, rgba(0,0,0,1) 40%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.lrcontrast-parent-inv {
+	position: relative;
+}
+
+.lrcontrast-child-background-inv {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to left, rgba(12,12,12,1) 0%, rgba(12,12,12,1) 40%, rgba(12,12,12,0) 40%);
+	color: transparent;
+}
+
+.lrcontrast-child-text-inv {
+	position: relative;
+	background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(0,0,0,1) 40%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.lrcontrast-child-text-inv-mustard {
+	background: linear-gradient(to left, rgba(255,226,91,1) 0%, rgba(255,226,91,1) 40%, rgba(0,0,0,1) 40%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
