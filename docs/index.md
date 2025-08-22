@@ -5,9 +5,9 @@ permalink: /
 class1: mathematician
 class2: engineer
 class3: accountant
-subtitle: I'm a tireless engineer and a mathematician who solves real-world problems in
-section1: My work bridges research, application, and measurable impact—grounded in an academic foundation in mathematics, statistics, and business. 
-section2: In addition, I bring hands-on expertise in financial management, serving as a GAAP-compliant controller, accountant, and bookkeeper.
+subtitle: I'm a tireless engineer and mathematician who solves real-world problems in
+section1: My work bridges research, application, and measurable impact—grounded in cost-sensitive business environments and an academic foundation in<br>mathematics, statistics, and business. 
+section2: In addition, I bring hands-on expertise in financial management, serving as a GAAP-compliant<br>controller, accountant, and bookkeeper.
 ---
 
 <div class="focus-rectangle-intro">
@@ -17,8 +17,8 @@ section2: In addition, I bring hands-on expertise in financial management, servi
 <div class="container px-5 py-3" style="margin-top: -10.5rem; text-align: center;">
 <h1 class="display-2" style="font-family: 'Merriweather', 'Playfair Display' , 'PT Serif', 'Bitter', Georgia, serif;">{{ page.title }}</h1>
 </div>
-
 </div> <!-- >= md -->
+
 <div class="d-block d-md-none">
 <div class="container py-3" style="margin-top: -8rem; text-align: center;">
 <h1 class="display-1" style="font-family: 'Merriweather', 'Playfair Display' , 'PT Serif', 'Bitter', Georgia, serif;">{{ page.title }}</h1>
@@ -39,15 +39,15 @@ section2: In addition, I bring hands-on expertise in financial management, servi
 </div> <!-- focus-rectangle-intro -->
 
 <div class="d-none d-md-block"> <!-- >= md -->
-<div class="container my-5" style="background: transparent;">
+<div class="container my-8" style="background: transparent;">
 <div class="lrcontrast-parent" style="margin-left: 20%; margin-right: 20%;">
 <div class="lrcontrast-child-background">
-<div class="py-2" style="margin-left: 25%; text-align: right;">
+<div class="py-3" style="margin-left: 25%; text-align: right;">
 <h2>{{ page.section1 }}</h2>
 </div>
 </div> <!-- container -->
 <div class= "lrcontrast-child-text lrcontrast-child-text-mustard">
-<div class="py-2" style="margin-left: 25%; text-align: right;">
+<div class="py-3" style="margin-left: 25%; text-align: right;">
 <h2>{{ page.section1 }}</h2>
 </div>
 </div> <!-- container -->
@@ -56,15 +56,15 @@ section2: In addition, I bring hands-on expertise in financial management, servi
 </div> <!-- >= md -->
 
 <div class="d-block d-md-none"> <!-- < md -->
-<div class="container my-5" style="background: transparent;">
+<div class="container my-8" style="background: transparent;">
 <div class="lrcontrast-parent" style="margin-left: 5%; margin-right: 5%;">
 <div class="lrcontrast-child-background">
-<div class="py-2" style="margin-left: 5%; text-align: right;">
+<div class="py-3" style="margin-left: 5%; text-align: right;">
 <h2>{{ page.section1 }}</h2>
 </div>
 </div> <!-- container -->
 <div class= "lrcontrast-child-text lrcontrast-child-text-mustard">
-<div class="py-2" style="margin-left: 5%; text-align: right;">
+<div class="py-3" style="margin-left: 5%; text-align: right;">
 <h2>{{ page.section1 }}</h2>
 </div>
 </div> <!-- container -->
@@ -73,15 +73,15 @@ section2: In addition, I bring hands-on expertise in financial management, servi
 </div> <!-- < md -->
 
 <div class="d-none d-md-block"> <!-- >= md -->
-<div class="container my-5" style="background: transparent;">
+<div class="container my-8" style="background: transparent;">
 <div class="lrcontrast-parent-inv" style="margin-left: 20%; margin-right: 20%;">
 <div class="lrcontrast-child-background-inv">
-<div class="py-2" style="margin-right: 25%; text-align: left;">
+<div class="py-3" style="margin-right: 25%; text-align: left;">
 <h2>{{ page.section2 }}</h2>
 </div>
 </div> <!-- container -->
 <div class="lrcontrast-child-text-inv lrcontrast-child-text-inv-mustard">
-<div class="py-2" style="margin-right: 25%; text-align: left;">
+<div class="py-3" style="margin-right: 25%; text-align: left;">
 <h2>{{ page.section2 }}</h2>
 </div>
 </div> <!-- container -->
@@ -90,15 +90,15 @@ section2: In addition, I bring hands-on expertise in financial management, servi
 </div> <!-- >= md -->
 
 <div class="d-block d-md-none"> <!-- < md -->
-<div class="container my-5" style="background: transparent;">
+<div class="container my-8" style="background: transparent;">
 <div class="lrcontrast-parent-inv" style="margin-left: 5%; margin-right: 5%;">
 <div class="lrcontrast-child-background-inv">
-<div class="py-2" style="margin-right: 5%; text-align: left;">
+<div class="py-3" style="margin-right: 5%; text-align: left;">
 <h2>{{ page.section2 }}</h2>
 </div>
 </div> <!-- container -->
 <div class="lrcontrast-child-text-inv lrcontrast-child-text-inv-mustard">
-<div class="py-2" style="margin-right: 5%; text-align: left;">
+<div class="py-3" style="margin-right: 5%; text-align: left;">
 <h2>{{ page.section2 }}</h2>
 </div>
 </div> <!-- container -->
@@ -131,5 +131,5 @@ section2: In addition, I bring hands-on expertise in financial management, servi
 </div>
 
 <div class="m-9">
-### Whichever version of me you're looking for, I'm glad you're here!
+## Whichever version of me you're looking for, I'm glad you're here!
 </div>
