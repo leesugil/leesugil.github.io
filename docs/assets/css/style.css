@@ -185,6 +185,12 @@ body {
 	-webkit-text-fill-color: transparent;
 }
 
+.lrcontrast-child-text-pink {
+	background: linear-gradient(to right, pink 0%, pink 40%, rgba(0,0,0,1) 40%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .lrcontrast-parent-inv {
 	position: relative;
 }
@@ -208,6 +214,12 @@ body {
 
 .lrcontrast-child-text-inv-mustard {
 	background: linear-gradient(to left, rgba(255,226,91,1) 0%, rgba(255,226,91,1) 40%, rgba(0,0,0,1) 40%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.lrcontrast-child-text-inv-pink {
+	background: linear-gradient(to left, pink 0%, pink 40%, rgba(0,0,0,1) 40%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
