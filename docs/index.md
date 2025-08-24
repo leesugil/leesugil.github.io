@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Push_Boundaries()
+category: home
+title: pushing boundaries
 permalink: /
 class1: technology
 class2: science
@@ -12,63 +13,39 @@ section1-2: grounded in cost-sensitive business environments and an academic fou
 section2: I also oversee full-cycle accounting, from transactional bookkeeping through GAAP-compliant financial reporting and strategic controller-level oversight.
 section2-1: I also oversee full-cycle accounting, from transactional bookkeeping
 section2-2: through GAAP-compliant financial reporting and strategic controller-level oversight.
+seework1: Discover my work in algebraic geometry, number theory, and curriculum development.
+seework2: See my work in data science, machine-learning, and open-source projects.
+seework3: Learn how I deliver clarity and insight with full-cycle accounting.
 ---
 
-<div class="d-none d-lg-block">
-<div class="container" style="
-position: relative;
-">
-<div style="
-position: absolute;
-bottom: 2.5rem;
-left: 50%;
-transform: translateX(-50%);
-background-image: linear-gradient(to bottom, transparent, white, white, white, transparent);
-">
-<h1 class="display-2" style="font-family: 'Merriweather', 'Playfair Display' , 'PT Serif', 'Bitter', Georgia, serif;">{{ page.title }}</h1>
-</div>
-</div>
-</div> <!-- >= lg -->
 
-<div class="d-block d-lg-none">
-<div class="container" style="
-position: relative;
-">
-<div style="
-position: absolute;
-bottom: 3rem;
-left: 50%;
-transform: translateX(-50%);
-background-image: linear-gradient(to bottom, transparent, white, white, white, transparent);
-">
-<h1 class="display-2" style="font-family: 'Merriweather', 'Playfair Display' , 'PT Serif', 'Bitter', Georgia, serif;">{{ page.title }}</h1>
+<div class="container-sm" style="text-align: center;">
+<img src="{{ '/assets/img/' | append: page.category | append: '-insert.png' | relative_url }}" alt={{ page.category }} style="max-height: 500px; max-width: 100%;"/>
 </div>
+
+<div class="container" style="position: relative;">
+<h1 class="display-2 serif" style="text-align: center;">{{ page.title }}</h1>
 </div>
-</div> <!-- < lg -->
 
-
-
-<div class="d-none d-lg-block">
 <div class="container">
+<div class="d-none d-lg-block">
 <div class="m-5 p-5">
 <div style="text-align: center;">
 <h2>{{ page.subtitle }} <span class="emphasis-inverted">{{ page.class1 }}</span>, <span class="emphasis-inverted">{{ page.class2 }}</span>, and <span class="emphasis-inverted">{{ page.class3 }}</span>.</h2>
 </div>
 </div>
 </div>
-</div> <!-- >= lg -->
-
 <div class="d-block d-lg-none">
-<div class="container">
-<div style="text-align: center;">
+<div class="my-5" style="text-align: center;">
 <h2>{{ page.subtitle }} <span class="emphasis-inverted">{{ page.class1 }}</span>, <span class="emphasis-inverted">{{ page.class2 }}</span>, and <span class="emphasis-inverted">{{ page.class3 }}</span>.</h2>
 </div>
 </div>
-</div> <!-- < lg -->
+</div>
 
+
+<!--
 <br>
-
-<div class="d-none d-lg-block"> <!-- >= lg -->
+<div class="d-none d-lg-block">
 <div class="container">
 <div class="m-5 p-5" style="background: pink;">
 <div class="lrcontrast-parent" style="margin-left: 20%; margin-right: 20%;">
@@ -81,7 +58,7 @@ background-image: linear-gradient(to bottom, transparent, white, white, white, t
 <h2 style="margin: 0;">{{ page.section1-2 }}</h2>
 </div>
 </div>
-</div> <!-- container -->
+</div>
 <div class= "lrcontrast-child-text lrcontrast-child-text-mustard">
 <div class="py-3" style="text-align: right;">
 <div style="margin-left: 10%; margin-top: 0; margin-bottom: 0; padding: 0;">
@@ -96,8 +73,7 @@ background-image: linear-gradient(to bottom, transparent, white, white, white, t
 </div>
 </div>
 </div>
-
-<div class="d-block d-lg-none"> <!-- < lg -->
+<div class="d-block d-lg-none">
 <br><br>
 <div class="container">
 <div class="p-3" style="background: pink; text-align: center;">
@@ -105,10 +81,11 @@ background-image: linear-gradient(to bottom, transparent, white, white, white, t
 </div>
 </div>
 </div>
+-->
 
+<!--
 <br><br>
-
-<div class="d-none d-lg-block"> <!-- >= lg -->
+<div class="d-none d-lg-block">
 <div class="container">
 <div class="m-5 p-5" style="background: pink;">
 <div class="lrcontrast-parent-inv" style="margin-left: 20%; margin-right: 20%;">
@@ -121,7 +98,7 @@ background-image: linear-gradient(to bottom, transparent, white, white, white, t
 <h2 style="margin: 0;">{{ page.section2-2 }}</h2>
 </div>
 </div>
-</div> <!-- container -->
+</div>
 <div class="lrcontrast-child-text-inv lrcontrast-child-text-inv-mustard">
 <div class="py-3" style="text-align: left;">
 <div style="margin-right: 10%; margin-top: 0; margin-bottom: 0; padding: 0;">
@@ -136,7 +113,6 @@ background-image: linear-gradient(to bottom, transparent, white, white, white, t
 </div>
 </div>
 </div>
-
 <div class="d-block d-lg-none">
 <div class="container">
 <div class="p-3" style="background: pink; text-align: center;">
@@ -144,31 +120,34 @@ background-image: linear-gradient(to bottom, transparent, white, white, white, t
 </div>
 </div>
 </div>
+-->
+
 
 <br>
 
 <div class="d-none d-lg-block">
 <div class="container">
+
 <div class="m-5 p-5" style="background: rgba(255,226,91,1);">
-## Feel free to explore the details on the following pages:
+## Find out my work on the following pages:
 
 <br>
 
-<h1>* <a class="link-dark" href="{{ '/research/' | relative_url }}"><b>ACADEMIC RESEARCH & EDUCATION <i class="fa-regular fa-hand-point-left"></i></b></a></h1>
+<h1>* <a class="link-dark" href="{{ '/research/' | relative_url }}"><b>RESEARCH & ED <i class="fa-regular fa-hand-point-left"></i></b></a></h1>
 
-<span class="code-style">Discover my work in mathematics and education.<br><br></span>
-
-<span class="br-soft"></span>
-
-<h1>* <a class="link-dark" href="{{ '/development/' | relative_url }}"><span class="light-dark"><b>APPLIED SCIENCE & DEVELOPMENT <i class="fa-regular fa-hand-point-left"></i></b></span></a></h1>
-
-<span class="code-style">See how I translate abstract thinking to real-world solutions.<br><br></span>
+<span class="code-style">{{ page.seework1 }}<br><br></span>
 
 <span class="br-soft"></span>
 
-<h1>* <a class="link-dark" href="{{ '/accounting/' | relative_url }}"><span class="light-dark"><b>ACCOUNTING & FINANCIAL MANAGEMENT <i class="fa-regular fa-hand-point-left"></i></b></span></a></h1>
+<h1>* <a class="link-dark" href="{{ '/development/' | relative_url }}"><span class="light-dark"><b>DEV & ML Engineering <i class="fa-regular fa-hand-point-left"></i></b></span></a></h1>
 
-<span class="code-style">Learn how I deliver clarity, compliance, and strategic insight with accounting.<br><br></span>
+<span class="code-style">{{ page.seework2 }}<br><br></span>
+
+<span class="br-soft"></span>
+
+<h1>* <a class="link-dark" href="{{ '/accounting/' | relative_url }}"><span class="light-dark"><b>ACCOUNTING & Financial Management <i class="fa-regular fa-hand-point-left"></i></b></span></a></h1>
+
+<span class="code-style">{{ page.seework3 }}<br><br></span>
 </div>
 </div>
 </div>
@@ -183,25 +162,26 @@ background-image: linear-gradient(to bottom, transparent, white, white, white, t
 
 <h1>* <a class="link-dark" href="{{ '/research/' | relative_url }}"><b>ACADEMIC RESEARCH & EDUCATION <i class="fa-regular fa-hand-point-left"></i></b></a></h1>
 
-<span class="code-style">Discover my work in mathematics and education.<br><br></span>
+<span class="code-style">{{ page.seework1 }}<br><br></span>
 
 <span class="br-soft"></span>
 
 <h1>* <a class="link-dark" href="{{ '/development/' | relative_url }}"><span class="light-dark"><b>APPLIED SCIENCE & DEVELOPMENT <i class="fa-regular fa-hand-point-left"></i></b></span></a></h1>
 
-<span class="code-style">See how I translate abstract thinking to real-world solutions.<br><br></span>
+<span class="code-style">{{ page.seework2 }}<br><br></span>
 
 <span class="br-soft"></span>
 
 <h1>* <a class="link-dark" href="{{ '/accounting/' | relative_url }}"><span class="light-dark"><b>ACCOUNTING & FINANCIAL MANAGEMENT <i class="fa-regular fa-hand-point-left"></i></b></span></a></h1>
 
-<span class="code-style">Learn how I deliver clarity, compliance, and strategic insight with accounting.<br><br></span>
+<span class="code-style">{{ page.seework3 }}<br><br></span>
 </div>
 </div>
 </div>
 
 <br>
 
+<!--
 <div class="d-none d-lg-block">
 <div class="container">
 <div class="m-5 p-5" style="background: pink;">
@@ -219,7 +199,6 @@ background-image: linear-gradient(to bottom, transparent, white, white, white, t
 </div>
 </div>
 
-<!--
 <div class="container">
 <div class="m-5 p-5" style="background: pink;">
 <h2>Whichever version of me you're looking for, <span style="color: black; background: rgba(255,226,91,1); padding: 0.2rem;">I'm glad you're here!</span></h2>

@@ -1,0 +1,5 @@
+{% for item in site.data.resume.related %}
+{% if item.category == page.category %}
+- <a class="link-dark" href="{{ item.url }}" target="_blank"><b style="">{{ item.title }}</b></a> ({{ item.institution }}, {{ item.year }})
+{% endif %}
+{% endfor %}

@@ -4,7 +4,11 @@ title: APPLIED SCIENCE & DEVELOPMENT
 permalink: /development/
 category: development
 
-subtitle: Data Science, Software Engineering
+subtitle: Data Science • ML Engineering • Solutions Architecture
+abstract: "I build systems that connect mathematics, machine learning, and real-world problems. My projects range from fine-tuning LLMs and building predictive models, to designing custom data solutions that speed up decision-making.
+<br><br>I started in data analytics, working with statistics, regression models, PCA, and Monte Carlo methods to tackle optimization and prediction problems. Today, I lead end-to-end development: designing scalable architectures, implementing infrastructure, and delivering tailored ML solutions.
+<br><br>Each project is a chance to push boundaries and make the next challenge easier to solve — and that’s what keeps me hooked.
+<br><br>See below to contact me for professional inquiries."
 mission: I am a natural problem-solver and enjoy tackling the ever-growing challenges of the real world by continuously learning new technologies and applying scientific principles to them.
 principle: As a self-motivated collaborator and engineer, I often identify new project goals, define scopes, and deliver minimum viable products that support strategic decisions and drive progress in production pipelines.
 environment: With a strong foundation in statistics and mathematics, I enjoy working on projects involving—though not limited to—data science, artificial intelligence, operations research, operating systems development, and security.
@@ -13,39 +17,37 @@ catchy-needs: dev team
 disclose: false
 ---
 
-<div class="focus-rectangle-intro">
-# {{ page.title }}
-
-## **{{ page.subtitle }}**
+<div class="container my-3">
+<h1 class="display-5 serif">{{ page.title }}</h1>
+<h2>{{ page.subtitle }}</h2>
 </div>
 
-<span class="br-softer"/>
-I’m a full-stack data scientist and software engineer who applies core mathematical, statistical, and scientific principles to real-world problems. I enjoy working with numbers and signals, and since completing my Ph.D., I’ve contributed to a range of industry projects across multiple domains.
-
-As a senior data scientist, I model data for forecasting and help secure the data infrastructure that makes those models actionable. I apply classification, regression, simulation, and machine learning techniques to analyze data directly tied to key productivity areas in operations research—such as cost analysis, inventory, logistics, project budgeting, manufacturing, and financing.
-
-As a software engineer, I develop and deploy internal management platforms. My work involves cloud-based, containerized environments and focuses on building data pipelines and processing infrastructure. These efforts aim to optimize existing workflows and lay the groundwork for long-term scalability and measurable productivity gains.
-
-In my spare time, I enjoy studying operating systems, processor architecture, quantum computing, and post-quantum cryptography.
-
-If you’d like to learn more about my career and Ph.D. research, feel free to visit my <a class="link-dark" href="{{ site.linkedin }}" target="_blank">LinkedIn profile</a> or explore the rest of this page.
-
-<br>
-<div class="focus-rectangle-sm">
-# WORK EXPERIENCES
+<div class="container my-4">
+{{ page.abstract }}
 </div>
-<div class="focus-rectangle">
+
+<div class="container my-7">
+## Related
+{% include related.html %}
+</div>
+
+<!--
+<div class="container my-7">
+## WORK EXPERIENCES
 {% include jobs.html %}
 </div>
+-->
 
-<br>
-# PROJECTS
-<div class="focus-rectangle">
+<!--
+<div class="container my-7">
+## PROJECTS
 {% include projects.html %}
 </div>
+-->
 
-<br>
-# EDUCATION
-<div class="focus-rectangle">
+<!--
+<div class="container my-7">
+## EDUCATION
 {% include education.html %}
 </div>
+-->

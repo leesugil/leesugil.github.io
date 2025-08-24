@@ -6,7 +6,7 @@
 <br>• {{ item.abstract }}
 {% endif %}
 {% else %}
-- <b style="font-size: var(--golden-ratio-rem);">{{ item.title }}</b>
+- <b style="">{{ item.title }}</b>
 <br>{{ item.position }}{% if item.institution %}, {% for inst in item.institution %}{{ inst }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %} ({{ item.year }})
 <span class="br-softer"></span>
     - **Abstract:** {{ item.abstract }}

@@ -698,3 +698,21 @@ projects:
     title: Predictive Modeling of Shipping Weights and Cost
     year: 2019
     abstract: Developed a predictive model to estimate shipping costs during sales for heavy construction parts with irregular shapes. Applied statistical data analysis and machine-learning techniques (non-linear regression analysis, PCA, DNN) on dimensions of items, sales and shipping records, and merged with APIs available from nation-wide shipping vendors to yield a deliverable model.
+
+
+related:
+  - title: Galois Module Structure of Weakly Ramified Covers of Curves
+    institution: Michigan State University
+    year: 2020
+    url: https://d.lib.msu.edu/etd/48842
+    category: research
+  - title: To be updated!
+    institution: \#
+    year: \#
+    url: #
+    category: development
+  - title: To be updated!
+    institution: \#
+    year: \#
+    url: #
+    category: accounting

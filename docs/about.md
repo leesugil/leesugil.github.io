@@ -1,10 +1,18 @@
 ---
 layout: about
-title: ABOUT<br>SUGIL
+title: ABOUT SUGIL
 permalink: /about/
 category: about
+subtitle: Innovator • Resilience • Collaborator
+abstract: "
+I love learning and solving problems. I’ve always been drawn to complex challenges, and this drive fuels my work as both an engineer and researcher.
+<br><br>My journey began in Korea, where the education system often rewarded perfection on transcripts more than curiosity. For years, I pushed myself to meet expectations while quietly questioning whether I could pursue what truly fascinated me. After military service, that curiosity reignited through studying statistical models in economics, which opened doors to physics and ultimately to mathematics.
+<br><br>A one-year exchange program in the U.S. convinced me that science was not just an interest, but my calling. I later returned to the U.S. to earn a Ph.D. in mathematics and teach for several years. Along the way, I discovered that knowledge becomes most powerful when shared. Remembering how difficult mathematics once felt to me, I’ve worked to bridge the gap between abstract theory and practical tools—whether through research, writing, or code.
+<br><br>As industry needs evolved, so did my path. In the era of big data, I focused on analytics and predictive modeling. Today, my focus is on machine learning engineering and applied AI, with an eye toward emerging fields that will shape the post-AI era. For me, learning never stops—it is both my profession and my passion.
+"
 ---
 
+<!--
 <div style="position: relative; max-width: 50%; background: lightblue;
 margin: 0 auto;
 padding: 0;
@@ -51,35 +59,19 @@ s<br>u<br>g<br>i<br><i>l</i>
 </div>
 </div>
 </div>
+-->
 
 
 
+<div class="container my-3">
+<h1 class="display-5 serif">{{ page.title }}</h1>
+<h2>{{ page.subtitle }}</h2>
+</div>
 
-## **Your Neighborhood Mathematician**
+<div class="container my-4">
+{{ page.abstract }}
+</div>
 
-<span class="br-softer"/>
-I love learning and solving problems. I've always been attracted to incomprehensible complexities and challenges, and it's the core drive of my day-to-day contribution to the real-world. I write code and books for my employers, teams, and people who which to push boundaries and can benefit from my expriences. The current related fields are machine learning, data science, data engineering, IT infrastructure, and financial management.
-
-Before the industrial profession, I studied algebraic geometry and number theory. My dissertation focus was on studying a specific type of curves and its ramification behavior under a group action. I'm hoping to be able to get my hands on the subject again, but my current priority is to follow my contribution.
-
-
-
-
-
-
-
-
-
-
-
-# add this:
-My engineer carrer naturally evolved as the industry changes.
-Started as a data scientist and an applied statistician.
-DNN and machine learning.
-ML engineer
-quantum computing?
-post quantum cryptography?
-
-<br>
+<div class="container my-4">
 Feel free to reach out anytime ☕️🪴
-<br>
+</div>

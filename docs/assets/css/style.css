@@ -224,3 +224,6 @@ body {
 	-webkit-text-fill-color: transparent;
 }
 
+.serif {
+	font-family: 'Merriweather', 'Playfair Display', 'PT Serif', 'Bitter', Georgia, serif;
+}
