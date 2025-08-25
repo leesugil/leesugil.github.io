@@ -3,12 +3,16 @@ layout: about
 title: ABOUT SUGIL
 permalink: /about/
 category: about
-subtitle: Innovator • Resilience • Collaborator
+subtitle: Machine Learning Engineer • Mathematician • Problem-Solver
 abstract: "
-I love learning and solving problems. I’ve always been drawn to complex challenges, and this drive fuels my work as both an engineer and researcher.
-<br><br>My journey began in Korea, where the education system often rewarded perfection on transcripts more than curiosity. For years, I pushed myself to meet expectations while quietly questioning whether I could pursue what truly fascinated me. After military service, that curiosity reignited through studying statistical models in economics, which opened doors to physics and ultimately to mathematics.
-<br><br>A one-year exchange program in the U.S. convinced me that science was not just an interest, but my calling. I later returned to the U.S. to earn a Ph.D. in mathematics and teach for several years. Along the way, I discovered that knowledge becomes most powerful when shared. Remembering how difficult mathematics once felt to me, I’ve worked to bridge the gap between abstract theory and practical tools—whether through research, writing, or code.
-<br><br>As industry needs evolved, so did my path. In the era of big data, I focused on analytics and predictive modeling. Today, my focus is on machine learning engineering and applied AI, with an eye toward emerging fields that will shape the post-AI era. For me, learning never stops—it is both my profession and my passion.
+I build scalable systems that solve real business problems.
+<br><br>Currently developing enterprise automation platforms that reduced operational costs by $200K+ per SMB/department annually while supporting 600+ employee workflows across multiple states. My background spans from low-level C/C++ optimization to ML pipeline deployment on AWS.
+<br><br>Recent highlights:
+<br>• Architected and deployed containerized ERP system handling $24M revenue streams
+<br>• Built predictive models for manufacturing optimization using PyTorch/scikit-learn
+<br>• Led technical recovery of $17M manufacturing operation, preventing facility shutdown
+<br><br>I combine mathematical rigor (Ph.D. Mathematics, MSU) with hands-on engineering to deliver measurable business impact. Always excited to tackle complex technical challenges.
+<br><br>Tech stack: Python, C/C++, SQL, Docker, AWS, Django, PyTorch
 "
 ---
 

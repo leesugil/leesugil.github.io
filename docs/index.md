@@ -133,21 +133,23 @@ seework3: Learn how I deliver clarity and insight with full-cycle accounting.
 
 <br>
 
-<h1>* <a class="link-dark" href="{{ '/research/' | relative_url }}"><b>RESEARCH & ED <i class="fa-regular fa-hand-point-left"></i></b></a></h1>
-
-<span class="code-style">{{ page.seework1 }}<br><br></span>
-
-<span class="br-soft"></span>
-
 <h1>* <a class="link-dark" href="{{ '/development/' | relative_url }}"><span class="light-dark"><b>DEV & ML Engineering <i class="fa-regular fa-hand-point-left"></i></b></span></a></h1>
 
 <span class="code-style">{{ page.seework2 }}<br><br></span>
 
 <span class="br-soft"></span>
 
+<h1>* <a class="link-dark" href="{{ '/research/' | relative_url }}"><b>RESEARCH & ED <i class="fa-regular fa-hand-point-left"></i></b></a></h1>
+
+<span class="code-style">{{ page.seework1 }}<br><br></span>
+
+<!--
+<span class="br-soft"></span>
+
 <h1>* <a class="link-dark" href="{{ '/accounting/' | relative_url }}"><span class="light-dark"><b>ACCOUNTING & Financial Management <i class="fa-regular fa-hand-point-left"></i></b></span></a></h1>
 
 <span class="code-style">{{ page.seework3 }}<br><br></span>
+-->
 </div>
 </div>
 </div>
@@ -160,21 +162,23 @@ seework3: Learn how I deliver clarity and insight with full-cycle accounting.
 
 <br>
 
-<h1>* <a class="link-dark" href="{{ '/research/' | relative_url }}"><b>ACADEMIC RESEARCH & EDUCATION <i class="fa-regular fa-hand-point-left"></i></b></a></h1>
-
-<span class="code-style">{{ page.seework1 }}<br><br></span>
-
-<span class="br-soft"></span>
-
 <h1>* <a class="link-dark" href="{{ '/development/' | relative_url }}"><span class="light-dark"><b>APPLIED SCIENCE & DEVELOPMENT <i class="fa-regular fa-hand-point-left"></i></b></span></a></h1>
 
 <span class="code-style">{{ page.seework2 }}<br><br></span>
 
 <span class="br-soft"></span>
 
+<h1>* <a class="link-dark" href="{{ '/research/' | relative_url }}"><b>ACADEMIC RESEARCH & EDUCATION <i class="fa-regular fa-hand-point-left"></i></b></a></h1>
+
+<span class="code-style">{{ page.seework1 }}<br><br></span>
+
+<!--
+<span class="br-soft"></span>
+
 <h1>* <a class="link-dark" href="{{ '/accounting/' | relative_url }}"><span class="light-dark"><b>ACCOUNTING & FINANCIAL MANAGEMENT <i class="fa-regular fa-hand-point-left"></i></b></span></a></h1>
 
 <span class="code-style">{{ page.seework3 }}<br><br></span>
+-->
 </div>
 </div>
 </div>
